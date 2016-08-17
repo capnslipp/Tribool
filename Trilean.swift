@@ -17,7 +17,7 @@ import Foundation
 		self = .indeterminate
 	}
 	public init(_ value:Bool) {
-		self = value ? .true : false
+		self = value ? .true : .false
 	}
 	public init(_ value:Bool?) {
 		self = (value == nil ? .indeterminate : (value! ? .true : .false))
@@ -31,7 +31,7 @@ import Foundation
 	// MARK: ExpressibleByBooleanLiteral Conformance
 	
 	public init(booleanLiteral value:Bool) {
-		self = value ? .true : false
+		self = value ? .true : .false
 	}
 	
 	
