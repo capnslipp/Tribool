@@ -7,7 +7,7 @@ import Foundation
 
 
 /// Work-around for `Bool?` not being usable in this `@objc` model class.
-@objc public enum Trilean : Int, ExpressibleByBooleanLiteral
+@objc public enum Trilean : Int, ExpressibleByBooleanLiteral, CustomStringConvertible, CustomDebugStringConvertible
 {
 	case `true` = 1
 	case `false` = 0
@@ -40,6 +40,20 @@ import Foundation
 	public var boolValue:Bool {
 		precondition(self != .indeterminate)
 		return self == .true ? true : false
+	}
+	
+	
+	// MARK: CustomStringConvertible & CustomDebugStringConvertible Conformance
+	
+	public var description:String {
+		switch self {
+			case .`true`: return "true"
+			case .`false`: return "false"
+			case .indeterminate: return "indeterminate"
+		}
+	}
+	public var debugDescription:String {
+		return "\(type(of: self)).\(self.description)"
 	}
 }
 
