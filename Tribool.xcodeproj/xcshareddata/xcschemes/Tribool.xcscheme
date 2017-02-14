@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "OBJ_14"
-               BuildableName = "Trilean.framework"
-               BlueprintName = "Trilean"
-               ReferencedContainer = "container:Trilean.xcodeproj">
+               BuildableName = "Tribool.framework"
+               BlueprintName = "Tribool"
+               ReferencedContainer = "container:Tribool.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "OBJ_14"
-            BuildableName = "Trilean.framework"
-            BlueprintName = "Trilean"
-            ReferencedContainer = "container:Trilean.xcodeproj">
+            BuildableName = "Tribool.framework"
+            BlueprintName = "Tribool"
+            ReferencedContainer = "container:Tribool.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

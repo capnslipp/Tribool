@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_19 /* Trilean.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Trilean.swift */; };
+		OBJ_19 /* Tribool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Tribool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		OBJ_13 /* Trilean.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Trilean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_13 /* Tribool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tribool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* Trilean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trilean.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Tribool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tribool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 		OBJ_12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* Trilean.framework */,
+				OBJ_13 /* Tribool.framework */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -55,26 +55,26 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_8 /* Trilean */,
+				OBJ_8 /* Tribool */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		OBJ_8 /* Trilean */ = {
+		OBJ_8 /* Tribool */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* Trilean.swift */,
+				OBJ_9 /* Tribool.swift */,
 			);
-			name = Trilean;
+			name = Tribool;
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_14 /* Trilean */ = {
+		OBJ_14 /* Tribool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_15 /* Build configuration list for PBXNativeTarget "Trilean" */;
+			buildConfigurationList = OBJ_15 /* Build configuration list for PBXNativeTarget "Tribool" */;
 			buildPhases = (
 				OBJ_18 /* Sources */,
 				OBJ_20 /* Frameworks */,
@@ -83,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = Trilean;
-			productName = Trilean;
-			productReference = OBJ_13 /* Trilean.framework */;
+			name = Tribool;
+			productName = Tribool;
+			productReference = OBJ_13 /* Tribool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 			attributes = {
 				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Trilean" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Tribool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_14 /* Trilean */,
+				OBJ_14 /* Tribool */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_19 /* Trilean.swift in Sources */,
+				OBJ_19 /* Tribool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,14 +134,14 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Trilean.xcodeproj/Trilean_Info.plist;
+				INFOPLIST_FILE = Tribool.xcodeproj/Tribool_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Trilean;
+				PRODUCT_BUNDLE_IDENTIFIER = Tribool;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = Trilean;
+				TARGET_NAME = Tribool;
 			};
 			name = Debug;
 		};
@@ -154,14 +154,14 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Trilean.xcodeproj/Trilean_Info.plist;
+				INFOPLIST_FILE = Tribool.xcodeproj/Tribool_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Trilean;
+				PRODUCT_BUNDLE_IDENTIFIER = Tribool;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = Trilean;
+				TARGET_NAME = Tribool;
 			};
 			name = Release;
 		};
@@ -214,7 +214,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_15 /* Build configuration list for PBXNativeTarget "Trilean" */ = {
+		OBJ_15 /* Build configuration list for PBXNativeTarget "Tribool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_16 /* Debug */,
@@ -223,7 +223,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_2 /* Build configuration list for PBXProject "Trilean" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Tribool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,

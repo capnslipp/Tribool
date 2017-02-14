@@ -7,7 +7,7 @@ import Foundation
 
 
 /// Work-around for `Bool?` not being usable in this `@objc` model class.
-@objc public enum Trilean : Int, ExpressibleByBooleanLiteral, CustomStringConvertible, CustomDebugStringConvertible
+@objc public enum Tribool : Int, ExpressibleByBooleanLiteral, CustomStringConvertible, CustomDebugStringConvertible
 {
 	case `true` = 1
 	case `false` = 0
@@ -60,7 +60,7 @@ import Foundation
 
 extension Bool
 {
-	public init(_ value:Trilean) {
+	public init(_ value:Tribool) {
 		self = value.boolValue
 	}
 }
