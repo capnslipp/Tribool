@@ -1,0 +1,4 @@
+language: swift
+xcode_project: Tribool.xcodeproj
+xcode_scheme: Tribool
+osx_image: xcode9.2
