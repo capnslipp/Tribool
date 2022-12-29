@@ -9,6 +9,7 @@ let package = Package(
 	dependencies: [],
 	targets: [
 		.target(name: "Tribool", dependencies: [], path: "Sources/"),
+		.testTarget(name: "TriboolTests", dependencies: ["Tribool"], path: "Tests/", sources: ["TriboolTests.swift"]),
 	],
 	swiftLanguageVersions: [
 		3,
